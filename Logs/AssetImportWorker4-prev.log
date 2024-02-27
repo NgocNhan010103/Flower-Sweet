@@ -1,0 +1,2306 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.12f1 (4fe6e059c7ef) revision 5236448'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16085 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Unity\2022.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Bloom Sort/Bloom Sort
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+51511
+Successfully changed project path to: C:/Bloom Sort/Bloom Sort
+C:/Bloom Sort/Bloom Sort
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24604] Host "[IP] 192.168.42.1 [Port] 0 [Flags] 2 [Guid] 1965814422 [EditorId] 1965814422 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [24604] Host "[IP] 192.168.42.1 [Port] 0 [Flags] 2 [Guid] 1965814422 [EditorId] 1965814422 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 4.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
+[Subsystems] Discovering subsystems at path C:/Unity/2022.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Bloom Sort/Bloom Sort/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3993 MB
+    Driver:   30.0.15.1165
+Initialize mono
+Mono path[0] = 'C:/Unity/2022.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Unity/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Unity/2022.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Unity/2022.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Unity/2022.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003861 seconds.
+- Loaded All Assemblies, in  0.279 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 200 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.414 seconds
+Domain Reload Profiling: 692ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (96ms)
+		LoadAssemblies (116ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (94ms)
+			TypeCache.Refresh (93ms)
+				TypeCache.ScanAssembly (84ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (414ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (374ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (277ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (62ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.471 seconds
+Refreshing native plugins compatible for Editor in 4.35 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.417 seconds
+Domain Reload Profiling: 888ms
+	BeginReloadAssembly (102ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (311ms)
+		LoadAssemblies (232ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (112ms)
+				TypeCache.ScanAssembly (100ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (418ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (304ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (215ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3234 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (57.4 KB). Loaded Objects now: 3713.
+Memory consumption went from 137.0 MB to 136.9 MB.
+Total: 3.140800 ms (FindLiveObjects: 0.150900 ms CreateObjectMapping: 0.079600 ms MarkObjects: 2.822000 ms  DeleteObjects: 0.087000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.374 seconds
+Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.762 seconds
+Domain Reload Profiling: 1133ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (155ms)
+		LoadAssemblies (214ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (762ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (423ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (302ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 4.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3213 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.1 KB). Loaded Objects now: 3716.
+Memory consumption went from 133.7 MB to 133.6 MB.
+Total: 3.044300 ms (FindLiveObjects: 0.252300 ms CreateObjectMapping: 0.113100 ms MarkObjects: 2.628900 ms  DeleteObjects: 0.048700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.318 seconds
+Refreshing native plugins compatible for Editor in 2.08 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.632 seconds
+Domain Reload Profiling: 949ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (149ms)
+		LoadAssemblies (199ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (633ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (317ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (219ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3213 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.1 KB). Loaded Objects now: 3719.
+Memory consumption went from 135.6 MB to 135.6 MB.
+Total: 2.373400 ms (FindLiveObjects: 0.217000 ms CreateObjectMapping: 0.071000 ms MarkObjects: 2.006000 ms  DeleteObjects: 0.078400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 13456.015811 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e27ffc1f1910ea11fab45b6d2c745c') in 0.075970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 429.836794 seconds.
+  path: Assets/Resources/Prefabs/petal-Blue.prefab
+  artifactKey: Guid(f9c1d797360353a4ea17f4d6bc4c2515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal-Blue.prefab using Guid(f9c1d797360353a4ea17f4d6bc4c2515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f0d2122d0ba697debc45587ffa0d1a') in 0.023971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/Prefabs/petal-red.prefab
+  artifactKey: Guid(cf3a9b3eb0cbd6f45b8edbd5fbd80bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal-red.prefab using Guid(cf3a9b3eb0cbd6f45b8edbd5fbd80bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83cc30535f3ddc1eabb36841591369f4') in 0.017818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/Prefabs/petal-Violet.prefab
+  artifactKey: Guid(ba69cc9e4abf95746b196ba1f457c1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal-Violet.prefab using Guid(ba69cc9e4abf95746b196ba1f457c1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cffa5e6278075a6b6b7b5be5ab89ff8') in 0.015309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.349 seconds
+Refreshing native plugins compatible for Editor in 3.05 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.677 seconds
+Domain Reload Profiling: 1025ms
+	BeginReloadAssembly (124ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (170ms)
+		LoadAssemblies (219ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (678ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (347ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (240ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.2 KB). Loaded Objects now: 3729.
+Memory consumption went from 137.5 MB to 137.4 MB.
+Total: 2.998500 ms (FindLiveObjects: 0.191100 ms CreateObjectMapping: 0.093600 ms MarkObjects: 2.666400 ms  DeleteObjects: 0.046000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 13.682018 seconds.
+  path: Assets/Resources/Prefabs/petal-Blue.prefab
+  artifactKey: Guid(f9c1d797360353a4ea17f4d6bc4c2515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal-Blue.prefab using Guid(f9c1d797360353a4ea17f4d6bc4c2515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f051739fb0fd2354057947ced503c56') in 0.079786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/Prefabs/petal-red.prefab
+  artifactKey: Guid(cf3a9b3eb0cbd6f45b8edbd5fbd80bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal-red.prefab using Guid(cf3a9b3eb0cbd6f45b8edbd5fbd80bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86bf45c87e9910b0fa825201f36747b') in 0.013335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.339 seconds
+Refreshing native plugins compatible for Editor in 2.54 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.673 seconds
+Domain Reload Profiling: 1010ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (155ms)
+		LoadAssemblies (214ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (673ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (319ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (226ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.1 KB). Loaded Objects now: 3732.
+Memory consumption went from 139.4 MB to 139.4 MB.
+Total: 3.018800 ms (FindLiveObjects: 0.250800 ms CreateObjectMapping: 0.182200 ms MarkObjects: 2.533000 ms  DeleteObjects: 0.051700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9.626232 seconds.
+  path: Assets/Resources/Prefabs/petal-Blue.prefab
+  artifactKey: Guid(f9c1d797360353a4ea17f4d6bc4c2515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal-Blue.prefab using Guid(f9c1d797360353a4ea17f4d6bc4c2515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1f33b88c85caa06404b80aef385d84') in 0.078306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/Prefabs/petal-Violet.prefab
+  artifactKey: Guid(ba69cc9e4abf95746b196ba1f457c1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal-Violet.prefab using Guid(ba69cc9e4abf95746b196ba1f457c1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252cc9b32d05e4055e902a2be0fd32ab') in 0.010917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 2.086916 seconds.
+  path: Assets/Resources/Prefabs/petal-Blue.prefab
+  artifactKey: Guid(f9c1d797360353a4ea17f4d6bc4c2515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal-Blue.prefab using Guid(f9c1d797360353a4ea17f4d6bc4c2515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21830385022be9b7da869bcf43332109') in 0.015647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Prefabs/petal-Violet.prefab
+  artifactKey: Guid(ba69cc9e4abf95746b196ba1f457c1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal-Violet.prefab using Guid(ba69cc9e4abf95746b196ba1f457c1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2177c313af73a3aced4be7f1952f752f') in 0.011635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.349 seconds
+Refreshing native plugins compatible for Editor in 2.94 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.677 seconds
+Domain Reload Profiling: 1024ms
+	BeginReloadAssembly (124ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (161ms)
+		LoadAssemblies (219ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (678ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (333ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (234ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.1 KB). Loaded Objects now: 3735.
+Memory consumption went from 141.3 MB to 141.3 MB.
+Total: 2.536800 ms (FindLiveObjects: 0.194000 ms CreateObjectMapping: 0.140300 ms MarkObjects: 2.155600 ms  DeleteObjects: 0.046000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10.696762 seconds.
+  path: Assets/Resources/Prefabs/petal-Blue.prefab
+  artifactKey: Guid(f9c1d797360353a4ea17f4d6bc4c2515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal-Blue.prefab using Guid(f9c1d797360353a4ea17f4d6bc4c2515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f37df1d405305a15d0bc462b8c975fd') in 0.078859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resources/Prefabs/petal-red.prefab
+  artifactKey: Guid(cf3a9b3eb0cbd6f45b8edbd5fbd80bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal-red.prefab using Guid(cf3a9b3eb0cbd6f45b8edbd5fbd80bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11feee1b41c42a6970692bd724779544') in 0.017386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 5.249034 seconds.
+  path: Assets/Resources/Prefabs/petal-Blue.prefab
+  artifactKey: Guid(f9c1d797360353a4ea17f4d6bc4c2515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal-Blue.prefab using Guid(f9c1d797360353a4ea17f4d6bc4c2515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdaeb417a3131a2dddf203a103ce0620') in 0.014009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Prefabs/petal-Yelow.prefab
+  artifactKey: Guid(6da9abfa891a554458e8f47266c7beeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal-Yelow.prefab using Guid(6da9abfa891a554458e8f47266c7beeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad06cfc7e55b8e69225aff49a9a03fa0') in 0.016751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.367 seconds
+Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.654 seconds
+Domain Reload Profiling: 1020ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (157ms)
+		LoadAssemblies (221ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (655ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (329ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (233ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.2 KB). Loaded Objects now: 3738.
+Memory consumption went from 143.2 MB to 143.2 MB.
+Total: 2.227600 ms (FindLiveObjects: 0.173100 ms CreateObjectMapping: 0.095000 ms MarkObjects: 1.914300 ms  DeleteObjects: 0.044500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10.979280 seconds.
+  path: Assets/Resources/Prefabs/petal-Blue.prefab
+  artifactKey: Guid(f9c1d797360353a4ea17f4d6bc4c2515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal-Blue.prefab using Guid(f9c1d797360353a4ea17f4d6bc4c2515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f413a5a823f938de2dacded0a8daa3') in 0.076262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/Prefabs/petal-Yelow.prefab
+  artifactKey: Guid(6da9abfa891a554458e8f47266c7beeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal-Yelow.prefab using Guid(6da9abfa891a554458e8f47266c7beeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ab38d63a3e770750624d7785e77c67') in 0.011753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.344 seconds
+Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.694 seconds
+Domain Reload Profiling: 1037ms
+	BeginReloadAssembly (125ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (153ms)
+		LoadAssemblies (209ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (695ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (354ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.2 KB). Loaded Objects now: 3741.
+Memory consumption went from 145.2 MB to 145.1 MB.
+Total: 2.380200 ms (FindLiveObjects: 0.251600 ms CreateObjectMapping: 0.102500 ms MarkObjects: 1.983600 ms  DeleteObjects: 0.041700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9.654421 seconds.
+  path: Assets/Resources/Prefabs/petal-Blue.prefab
+  artifactKey: Guid(f9c1d797360353a4ea17f4d6bc4c2515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal-Blue.prefab using Guid(f9c1d797360353a4ea17f4d6bc4c2515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65ce7e16bb639f3f7e89a10379b37d9') in 0.071429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/Prefabs/petal-Yelow.prefab
+  artifactKey: Guid(6da9abfa891a554458e8f47266c7beeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal-Yelow.prefab using Guid(6da9abfa891a554458e8f47266c7beeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44d06756b8c65b5b267a87fc3dfec2f') in 0.010413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.343 seconds
+Refreshing native plugins compatible for Editor in 2.27 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.713 seconds
+Domain Reload Profiling: 1054ms
+	BeginReloadAssembly (124ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (160ms)
+		LoadAssemblies (215ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (714ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (357ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (254ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.1 KB). Loaded Objects now: 3744.
+Memory consumption went from 147.1 MB to 147.1 MB.
+Total: 2.441300 ms (FindLiveObjects: 0.170300 ms CreateObjectMapping: 0.077900 ms MarkObjects: 2.150300 ms  DeleteObjects: 0.041700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9.476867 seconds.
+  path: Assets/Resources/Prefabs/petal-Blue.prefab
+  artifactKey: Guid(f9c1d797360353a4ea17f4d6bc4c2515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal-Blue.prefab using Guid(f9c1d797360353a4ea17f4d6bc4c2515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d63bc38c09ed292b6b57d26a3495b7') in 0.081980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resources/Prefabs/petal-Yelow.prefab
+  artifactKey: Guid(6da9abfa891a554458e8f47266c7beeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal-Yelow.prefab using Guid(6da9abfa891a554458e8f47266c7beeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1133be37f1995b0f007c40a3a85da6bc') in 0.012120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.337 seconds
+Refreshing native plugins compatible for Editor in 2.67 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.692 seconds
+Domain Reload Profiling: 1028ms
+	BeginReloadAssembly (124ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (158ms)
+		LoadAssemblies (213ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (693ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (343ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (238ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.1 KB). Loaded Objects now: 3747.
+Memory consumption went from 149.0 MB to 149.0 MB.
+Total: 2.356600 ms (FindLiveObjects: 0.178800 ms CreateObjectMapping: 0.078400 ms MarkObjects: 2.056400 ms  DeleteObjects: 0.042100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20.642417 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(83a68c927e066674ea3aaad055b500b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(83a68c927e066674ea3aaad055b500b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c164c94989520044e0136d042ed0af') in 0.006061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.340 seconds
+Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.712 seconds
+Domain Reload Profiling: 1051ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (216ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (713ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (350ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (235ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.1 KB). Loaded Objects now: 3750.
+Memory consumption went from 150.9 MB to 150.9 MB.
+Total: 2.493300 ms (FindLiveObjects: 0.232900 ms CreateObjectMapping: 0.149100 ms MarkObjects: 2.051300 ms  DeleteObjects: 0.059100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 87.723870 seconds.
+  path: Assets/Material/Orange.mat
+  artifactKey: Guid(8c9a72a4ad4537d4bba85c7c17f82132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Orange.mat using Guid(8c9a72a4ad4537d4bba85c7c17f82132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3e20f24270eb5d3797f5d33c132e6c') in 0.077265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.364053 seconds.
+  path: Assets/Resources/Prefabs/Orange.prefab
+  artifactKey: Guid(5281b7476a27e854e8b63b647203d329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Orange.prefab using Guid(5281b7476a27e854e8b63b647203d329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4067fef8f7bce43ebb53bb4c84136ae1') in 0.029990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.345 seconds
+Refreshing native plugins compatible for Editor in 1.88 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.646 seconds
+Domain Reload Profiling: 990ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (155ms)
+		LoadAssemblies (209ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (647ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (335ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (227ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.2 KB). Loaded Objects now: 3787.
+Memory consumption went from 153.2 MB to 153.2 MB.
+Total: 3.401600 ms (FindLiveObjects: 0.167300 ms CreateObjectMapping: 0.060500 ms MarkObjects: 3.126800 ms  DeleteObjects: 0.045800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1617.861644 seconds.
+  path: Assets/Resources/petal1.blend
+  artifactKey: Guid(0d3d4508281112040b1b195a06c3176a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/petal1.blend using Guid(0d3d4508281112040b1b195a06c3176a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1469a3e604696026f295c9d7d4c705c8') in 0.122597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 67.264942 seconds.
+  path: Assets/Resources/petal1.blend
+  artifactKey: Guid(0d3d4508281112040b1b195a06c3176a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/petal1.blend using Guid(0d3d4508281112040b1b195a06c3176a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511802a44e57badcc754f8ca73dc4e76') in 0.018499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 25.748017 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c98e2bca44205e10667b143e5621d1') in 0.000928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.947838 seconds.
+  path: Assets/Resources/Prefabs/petal1.prefab
+  artifactKey: Guid(0101e1568d74b104f941a150178819f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal1.prefab using Guid(0101e1568d74b104f941a150178819f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19cf3c32f5f3aaaaf0d65fb309c0c06') in 0.019015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.009339 seconds.
+  path: Assets/Resources/Prefabs/petal-Orange.prefab
+  artifactKey: Guid(9d7c5087e3c033649819ebcd56ec6439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal-Orange.prefab using Guid(9d7c5087e3c033649819ebcd56ec6439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13bcd7490b2992cccb201cfef7d19dd') in 0.007160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 24.830349 seconds.
+  path: Assets/Resources/Prefabs/petal1.prefab
+  artifactKey: Guid(0101e1568d74b104f941a150178819f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal1.prefab using Guid(0101e1568d74b104f941a150178819f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a554ab82214556889078b0102f68fea') in 0.007304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 18.845255 seconds.
+  path: Assets/Resources/Bloom Resources/Child.asset
+  artifactKey: Guid(d0d9582a328fa3249af0327b45094d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Bloom Resources/Child.asset using Guid(d0d9582a328fa3249af0327b45094d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db06ed209ef31bcecce369275bb6b79b') in 0.001803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.352 seconds
+Refreshing native plugins compatible for Editor in 2.57 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.700 seconds
+Domain Reload Profiling: 1051ms
+	BeginReloadAssembly (125ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (174ms)
+		LoadAssemblies (228ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (701ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (326ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (221ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.2 KB). Loaded Objects now: 3793.
+Memory consumption went from 155.3 MB to 155.2 MB.
+Total: 2.932600 ms (FindLiveObjects: 0.170500 ms CreateObjectMapping: 0.077800 ms MarkObjects: 2.638600 ms  DeleteObjects: 0.044100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 17.642478 seconds.
+  path: Assets/Resources/Prefabs/petal1.prefab
+  artifactKey: Guid(0101e1568d74b104f941a150178819f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal1.prefab using Guid(0101e1568d74b104f941a150178819f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e280c7c92092a994d123d0306b30e32c') in 0.070979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 2.562308 seconds.
+  path: Assets/Resources/Prefabs/petal1.prefab
+  artifactKey: Guid(0101e1568d74b104f941a150178819f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal1.prefab using Guid(0101e1568d74b104f941a150178819f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff7493479727831e1419a5691e5309a') in 0.006168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.328 seconds
+Refreshing native plugins compatible for Editor in 1.87 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.660 seconds
+Domain Reload Profiling: 987ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (152ms)
+		LoadAssemblies (201ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (661ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (327ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (222ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.1 KB). Loaded Objects now: 3796.
+Memory consumption went from 157.2 MB to 157.2 MB.
+Total: 2.567800 ms (FindLiveObjects: 0.175100 ms CreateObjectMapping: 0.079200 ms MarkObjects: 2.268900 ms  DeleteObjects: 0.043800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 26.331890 seconds.
+  path: Assets/Resources/Prefabs/petal1.prefab
+  artifactKey: Guid(0101e1568d74b104f941a150178819f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal1.prefab using Guid(0101e1568d74b104f941a150178819f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da7e544766e1cb7d70b39d1d7f86f54') in 0.098223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.266227 seconds.
+  path: Assets/Resources/Prefabs/petal1.prefab
+  artifactKey: Guid(0101e1568d74b104f941a150178819f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal1.prefab using Guid(0101e1568d74b104f941a150178819f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6d2df17e34b7beaea0d9a3e967f96b') in 0.014223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 1.371128 seconds.
+  path: Assets/Resources/Prefabs/petal1.prefab
+  artifactKey: Guid(0101e1568d74b104f941a150178819f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal1.prefab using Guid(0101e1568d74b104f941a150178819f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65631548e980a69ba7999b8adfab49eb') in 0.010867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.336 seconds
+Refreshing native plugins compatible for Editor in 2.23 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.671 seconds
+Domain Reload Profiling: 1006ms
+	BeginReloadAssembly (122ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (160ms)
+		LoadAssemblies (210ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (671ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (335ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (224ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (31.1 KB). Loaded Objects now: 3799.
+Memory consumption went from 159.1 MB to 159.1 MB.
+Total: 2.493600 ms (FindLiveObjects: 0.228600 ms CreateObjectMapping: 0.163800 ms MarkObjects: 2.054500 ms  DeleteObjects: 0.045800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9.871951 seconds.
+  path: Assets/Resources/Prefabs/petal1.prefab
+  artifactKey: Guid(0101e1568d74b104f941a150178819f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal1.prefab using Guid(0101e1568d74b104f941a150178819f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de94ede2e91a0a027053a19d9b803097') in 0.075827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.353 seconds
+Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.685 seconds
+Domain Reload Profiling: 1036ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (160ms)
+		LoadAssemblies (219ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (686ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (337ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (226ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (35.1 KB). Loaded Objects now: 3802.
+Memory consumption went from 161.0 MB to 161.0 MB.
+Total: 2.486200 ms (FindLiveObjects: 0.181000 ms CreateObjectMapping: 0.073400 ms MarkObjects: 2.165300 ms  DeleteObjects: 0.065700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 159.018045 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc9fd76cd630463f888b809754e6cfc') in 0.070293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 90
+========================================================================
+Received Import Request.
+  Time since last request: 4.771708 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e898a4edd09b17f039a461136412236') in 0.016767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 90
+========================================================================
+Received Import Request.
+  Time since last request: 2.849149 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b4ca5c397fa4d9b0da29533f17a2e4') in 0.020480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 2.762578 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3e4c0e35c507ab28db2b89f495b52a') in 0.016283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 2.727606 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff142ff1ce5abe976575ca27f3be5a9') in 0.019023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 104
+========================================================================
+Received Import Request.
+  Time since last request: 1.986396 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba460b8856d7721dfa4bc379cdf7995b') in 0.016128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 104
+========================================================================
+Received Import Request.
+  Time since last request: 5.946488 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8c49d0102f5b4a5899a118124ad215') in 0.015894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 3.879014 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdfd3b7c13143c0c2ed3c94ab3115162') in 0.019900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 4.082157 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0be7f59e8f2f812b822da4f28a35f7') in 0.018435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 118
+========================================================================
+Received Import Request.
+  Time since last request: 1.768609 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6fe5f38f3bcbe6bf250c798c048941') in 0.015808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 2.751777 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f67d015e946cf8f17e6bbcae6cbc4b') in 0.018738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 118
+========================================================================
+Received Import Request.
+  Time since last request: 2.422664 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627c1c115eedf80584c9fc58bfefa18a') in 0.016294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 118
+========================================================================
+Received Import Request.
+  Time since last request: 3.710814 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de14fd834130ab0f6256b6706dba99a') in 0.017643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 118
+========================================================================
+Received Import Request.
+  Time since last request: 2.739500 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86ea219602a46ce6c445f9930c1db92') in 0.016223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 125
+========================================================================
+Received Import Request.
+  Time since last request: 3.011645 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd417944fde68f25883200eacc94bb4bb') in 0.017484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 125
+========================================================================
+Received Import Request.
+  Time since last request: 18.918243 seconds.
+  path: Assets/Resources/petal1.blend
+  artifactKey: Guid(0d3d4508281112040b1b195a06c3176a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/petal1.blend using Guid(0d3d4508281112040b1b195a06c3176a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40cd5c1afc8e016e950746e2de9f40b') in 0.035025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 8.256489 seconds.
+  path: Assets/Resources/petal1.blend
+  artifactKey: Guid(0d3d4508281112040b1b195a06c3176a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/petal1.blend using Guid(0d3d4508281112040b1b195a06c3176a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9bada2644b253d67e6646c79d6be31') in 0.024599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 6.584637 seconds.
+  path: Assets/Resources/Prefabs/petal1.prefab
+  artifactKey: Guid(0101e1568d74b104f941a150178819f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal1.prefab using Guid(0101e1568d74b104f941a150178819f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013c9d11beba4eb316e38893f6eb07ef') in 0.020162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 20.763514 seconds.
+  path: Assets/Resources/petal 1.blend
+  artifactKey: Guid(22ad542aeeb4584429214daccbfa91e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/petal 1.blend using Guid(22ad542aeeb4584429214daccbfa91e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4874c0913b452f97a94791037a192d6') in 0.032562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 2.119211 seconds.
+  path: Assets/Resources/petal 2.blend
+  artifactKey: Guid(d59fa3221c911ba43b12794adcbb47a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/petal 2.blend using Guid(d59fa3221c911ba43b12794adcbb47a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4858c852d452dcc91f079f1552967d') in 0.032014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 1.190929 seconds.
+  path: Assets/Resources/petal 3.blend
+  artifactKey: Guid(91aee28cb9897cb48acfcd8a0b664289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/petal 3.blend using Guid(91aee28cb9897cb48acfcd8a0b664289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f938c1826cb119c9aa1ce452cadd786a') in 0.025058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 1.820001 seconds.
+  path: Assets/Resources/petal 4.blend
+  artifactKey: Guid(fa62bdf1973a2bd4c8aac746a8361cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/petal 4.blend using Guid(fa62bdf1973a2bd4c8aac746a8361cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc28423b2b780c551798457ff0a3348') in 0.025008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 1.901715 seconds.
+  path: Assets/Resources/petal 5.blend
+  artifactKey: Guid(654d0fbbf13af90419bf3a6621f1b42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/petal 5.blend using Guid(654d0fbbf13af90419bf3a6621f1b42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905c98ca0871a905d5a15cf5be370072') in 0.027511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 64.640492 seconds.
+  path: Assets/Resources/petal1 1.blend
+  artifactKey: Guid(3692c2750a76b034ba61ec467ea050be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/petal1 1.blend using Guid(3692c2750a76b034ba61ec467ea050be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0fb4a3da586f3b8b8a04365f2fb412') in 0.022444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 1.688417 seconds.
+  path: Assets/Resources/petal1 2.blend
+  artifactKey: Guid(5377ecd1389a3e241b259fef48bf31c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/petal1 2.blend using Guid(5377ecd1389a3e241b259fef48bf31c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da2024a92277c1be52c092587e2e66f') in 0.027398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 1.616370 seconds.
+  path: Assets/Resources/petal1 3.blend
+  artifactKey: Guid(4d22e092f2ab90b4184141482ee59626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/petal1 3.blend using Guid(4d22e092f2ab90b4184141482ee59626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48a943326e4597733d26ee1a5502f03') in 0.022574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 1.177296 seconds.
+  path: Assets/Resources/petal1 4.blend
+  artifactKey: Guid(ce203917b409afb4698920102e1e2e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/petal1 4.blend using Guid(ce203917b409afb4698920102e1e2e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17ca9b7afcc6ad05390fb801a64c59f') in 0.024285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 1.523538 seconds.
+  path: Assets/Resources/petal1 5.blend
+  artifactKey: Guid(490fe9032ddc8f04f8fd1b3b965dafaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/petal1 5.blend using Guid(490fe9032ddc8f04f8fd1b3b965dafaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aabd595c049e5a6de777ec889bf1e761') in 0.017771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 6.282214 seconds.
+  path: Assets/Resources/petal1 1.blend
+  artifactKey: Guid(3692c2750a76b034ba61ec467ea050be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/petal1 1.blend using Guid(3692c2750a76b034ba61ec467ea050be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b2e23d9a6896349758c9e74abf7102') in 0.020965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 7.590086 seconds.
+  path: Assets/Resources/petal1 2.blend
+  artifactKey: Guid(5377ecd1389a3e241b259fef48bf31c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/petal1 2.blend using Guid(5377ecd1389a3e241b259fef48bf31c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0773bccda10582b082ed811f04dde390') in 0.021341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 9.744935 seconds.
+  path: Assets/Resources/petal1 3.blend
+  artifactKey: Guid(4d22e092f2ab90b4184141482ee59626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/petal1 3.blend using Guid(4d22e092f2ab90b4184141482ee59626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edfceba97c5c026be9a8cb282e84e942') in 0.021773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 6.052074 seconds.
+  path: Assets/Resources/petal1 4.blend
+  artifactKey: Guid(ce203917b409afb4698920102e1e2e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/petal1 4.blend using Guid(ce203917b409afb4698920102e1e2e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2d43e9fa74981f2ccb98b07d68f84c') in 0.026313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 7.023863 seconds.
+  path: Assets/Resources/petal1 5.blend
+  artifactKey: Guid(490fe9032ddc8f04f8fd1b3b965dafaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/petal1 5.blend using Guid(490fe9032ddc8f04f8fd1b3b965dafaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ae3f0f951c7941900b2b0c8dd7ca55') in 0.018188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 28.193699 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59553cf7062b4b3357f3de01fc90aa97') in 0.019255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 90
+========================================================================
+Received Import Request.
+  Time since last request: 16.986656 seconds.
+  path: Assets/Resources/Prefabs/petal1 1.prefab
+  artifactKey: Guid(3d36d326e2b908e41bba521e0b0621f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal1 1.prefab using Guid(3d36d326e2b908e41bba521e0b0621f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bff436faab57c0a495c8efe225a5b27') in 0.013161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.016938 seconds.
+  path: Assets/Resources/Prefabs/petal1 2.prefab
+  artifactKey: Guid(01fa3093787b347479e39d448416f794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal1 2.prefab using Guid(01fa3093787b347479e39d448416f794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740c4acc64d63b4823986afab2d8242d') in 0.016667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/Prefabs/petal1 4.prefab
+  artifactKey: Guid(e55e32771598cc9418f5e1cfd1613b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal1 4.prefab using Guid(e55e32771598cc9418f5e1cfd1613b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f3fd4abc368030b2aac6e8f51a372d') in 0.014783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/Prefabs/petal1 5.prefab
+  artifactKey: Guid(b1e14137e9e62c34cb4d05701b953c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal1 5.prefab using Guid(b1e14137e9e62c34cb4d05701b953c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '071d4c7f014e86aaf00775e8c2b73fa7') in 0.015119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 11.702122 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b829ceba3247b96cd3691b6fb5a3d5c') in 0.017935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 132
+========================================================================
+Received Import Request.
+  Time since last request: 5.351041 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba07c8787eac1f7ec162798ab6ebd70') in 0.021041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 174
+========================================================================
+Received Import Request.
+  Time since last request: 5.222745 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65ca565493e6ec04fd4c17814f8f9be') in 0.013764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 171
+========================================================================
+Received Import Request.
+  Time since last request: 0.797677 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5edec2416d5a18775ece9008da11de2') in 0.012298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 168
+========================================================================
+Received Import Request.
+  Time since last request: 2.412175 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd771d486db0906af6f74f7b8f9636f53') in 0.011816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 165
+========================================================================
+Received Import Request.
+  Time since last request: 1.018640 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30072e480b40a788cf7dd0f1f13170e4') in 0.012481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 162
+========================================================================
+Received Import Request.
+  Time since last request: 9.985205 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd9fd71b3796e5c507cd3b7301b8907') in 0.017272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 204
+========================================================================
+Received Import Request.
+  Time since last request: 2.096491 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195b79609a8e18aecbce3a9e17d4f49e') in 0.013692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 201
+========================================================================
+Received Import Request.
+  Time since last request: 1.363139 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa63d7802a4725eee7887d95d2666319') in 0.014268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 198
+========================================================================
+Received Import Request.
+  Time since last request: 4.174836 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d05d74502e1012cfba9ee2d44c65190') in 0.013229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 240
+========================================================================
+Received Import Request.
+  Time since last request: 4.202490 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297c5a634074fb554ac080a6bafdb038') in 0.015569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 240
+========================================================================
+Received Import Request.
+  Time since last request: 3.562343 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde9906358a78ca07ddb14fc3c3e399a') in 0.015793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 237
+========================================================================
+Received Import Request.
+  Time since last request: 0.603233 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0101e5cfb7147e60dd6f3e68b9538789') in 0.013957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 234
+========================================================================
+Received Import Request.
+  Time since last request: 5.801227 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa292a3e39aa2990f3f00f208957e2a7') in 0.018568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 240
+========================================================================
+Received Import Request.
+  Time since last request: 2.133346 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a609a6c50aff098383189643a8a181') in 0.015129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 237
+========================================================================
+Received Import Request.
+  Time since last request: 0.770477 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6242365f0298e1a323a46d9a4777bc') in 0.018026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 234
+========================================================================
+Received Import Request.
+  Time since last request: 2.893833 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f109dd7ef5cbe39dc2feef62190925') in 0.021427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 276
+========================================================================
+Received Import Request.
+  Time since last request: 1.768428 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58ecb5078b2d02df44ec976eb8a8036') in 0.016455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 273
+========================================================================
+Received Import Request.
+  Time since last request: 0.605478 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59fbbcc38c492fa913624f25e0489780') in 0.016421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 270
+========================================================================
+Received Import Request.
+  Time since last request: 13.171831 seconds.
+  path: Assets/Resources/Prefabs/petal1 1.prefab
+  artifactKey: Guid(3d36d326e2b908e41bba521e0b0621f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal1 1.prefab using Guid(3d36d326e2b908e41bba521e0b0621f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af27c0a23b062ecd6290ef61f70bda51') in 0.015449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resources/Prefabs/petal1 4.prefab
+  artifactKey: Guid(e55e32771598cc9418f5e1cfd1613b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal1 4.prefab using Guid(e55e32771598cc9418f5e1cfd1613b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9779f8234baa390dbaec39999fca1b') in 0.015231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7ff564332c2a458b1153a3584b6e31') in 0.023025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 270
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Prefabs/petal1 3.prefab
+  artifactKey: Guid(354677bb57742444faa16e7529f97849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal1 3.prefab using Guid(354677bb57742444faa16e7529f97849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53ecab76a00b4ddd497fbe3211cf716') in 0.016114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Prefabs/petal1 5.prefab
+  artifactKey: Guid(b1e14137e9e62c34cb4d05701b953c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal1 5.prefab using Guid(b1e14137e9e62c34cb4d05701b953c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a63feae7399b4e55976f62317f28e7') in 0.016569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 1.625739 seconds.
+  path: Assets/Resources/Prefabs/petal1 1.prefab
+  artifactKey: Guid(3d36d326e2b908e41bba521e0b0621f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal1 1.prefab using Guid(3d36d326e2b908e41bba521e0b0621f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a900a6002c3d01011c9d185b6288d149') in 0.006075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.070639 seconds.
+  path: Assets/Resources/Prefabs/petal1 2.prefab
+  artifactKey: Guid(01fa3093787b347479e39d448416f794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal1 2.prefab using Guid(01fa3093787b347479e39d448416f794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ff88cd163f68934f9746b979dd4b26') in 0.006343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resources/Prefabs/petal1 4.prefab
+  artifactKey: Guid(e55e32771598cc9418f5e1cfd1613b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal1 4.prefab using Guid(e55e32771598cc9418f5e1cfd1613b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510b2883edd3bb22f5e6c490513a88e2') in 0.005813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Resources/Prefabs/petal1 5.prefab
+  artifactKey: Guid(b1e14137e9e62c34cb4d05701b953c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal1 5.prefab using Guid(b1e14137e9e62c34cb4d05701b953c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9f46ac8c66c9988f8cd1b778448c22') in 0.005632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 13.651486 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01073f8889b39ee47b1c68e40f3ab631') in 0.018760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 270
+========================================================================
+Received Import Request.
+  Time since last request: 3.946654 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f55a81d9f09d5382e5c75b53715a786') in 0.017697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 270
+========================================================================
+Received Import Request.
+  Time since last request: 4.360685 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d000871c66e5acc20668d505372d9b') in 0.018478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 270
+========================================================================
+Received Import Request.
+  Time since last request: 4.855283 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c37a3a70aa7791d1b1a33ff8d92c331') in 0.020266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 270
+========================================================================
+Received Import Request.
+  Time since last request: 3.233709 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933e8e3a9c0e4077455f3f1c5fc6e6c7') in 0.015064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 270
+========================================================================
+Received Import Request.
+  Time since last request: 6.436608 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5914b6b051b636a5330bb0bb1d63c059') in 0.022545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 270
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.343 seconds
+Refreshing native plugins compatible for Editor in 1.86 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.685 seconds
+Domain Reload Profiling: 1027ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (159ms)
+		LoadAssemblies (216ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (686ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (343ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (233ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (30.3 KB). Loaded Objects now: 3806.
+Memory consumption went from 163.1 MB to 163.1 MB.
+Total: 2.497500 ms (FindLiveObjects: 0.216800 ms CreateObjectMapping: 0.120000 ms MarkObjects: 2.121400 ms  DeleteObjects: 0.038300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 44.154594 seconds.
+  path: Assets/Resources/Prefabs/petal1.prefab
+  artifactKey: Guid(0101e1568d74b104f941a150178819f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal1.prefab using Guid(0101e1568d74b104f941a150178819f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5edf3b7df1c5afeca0082c16050fa3ed') in 0.084117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.005871 seconds.
+  path: Assets/Resources/Prefabs/petal1 1.prefab
+  artifactKey: Guid(3d36d326e2b908e41bba521e0b0621f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal1 1.prefab using Guid(3d36d326e2b908e41bba521e0b0621f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9363d76bda29b1f6e41d1c551903ed23') in 0.013014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/Prefabs/petal1 4.prefab
+  artifactKey: Guid(e55e32771598cc9418f5e1cfd1613b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal1 4.prefab using Guid(e55e32771598cc9418f5e1cfd1613b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701f76e36d3ae6ba3eec8d313775d2de') in 0.014479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14410690784cd3a43b6d89e629c59ee4') in 0.016941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 270
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/Prefabs/petal1 3.prefab
+  artifactKey: Guid(354677bb57742444faa16e7529f97849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal1 3.prefab using Guid(354677bb57742444faa16e7529f97849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40fb6c240c3a4c5cd1d1e6951968f20') in 0.016684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resources/Prefabs/petal1 5.prefab
+  artifactKey: Guid(b1e14137e9e62c34cb4d05701b953c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal1 5.prefab using Guid(b1e14137e9e62c34cb4d05701b953c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b48b0535a974917f89ab1cb45d23c2') in 0.016725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.358 seconds
+Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.770 seconds
+Domain Reload Profiling: 1126ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (160ms)
+		LoadAssemblies (207ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (770ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (399ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (278ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (30.3 KB). Loaded Objects now: 3809.
+Memory consumption went from 165.0 MB to 165.0 MB.
+Total: 2.444800 ms (FindLiveObjects: 0.198600 ms CreateObjectMapping: 0.080700 ms MarkObjects: 2.104000 ms  DeleteObjects: 0.060400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 25.242825 seconds.
+  path: Assets/Resources/Prefabs/petal1.prefab
+  artifactKey: Guid(0101e1568d74b104f941a150178819f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/petal1.prefab using Guid(0101e1568d74b104f941a150178819f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ac6e167b20ae89dd0dc4e49f9c9772') in 0.089502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/Prefabs/pistil-yelow.prefab
+  artifactKey: Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/pistil-yelow.prefab using Guid(a7a7de2b093c2d64393712c403bb599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fbbbf6773a0910cc227eff4bfb4cfe6') in 0.018455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 270
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.366 seconds
+Refreshing native plugins compatible for Editor in 2.90 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.706 seconds
+Domain Reload Profiling: 1070ms
+	BeginReloadAssembly (124ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (179ms)
+		LoadAssemblies (233ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (707ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (351ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (242ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (30.3 KB). Loaded Objects now: 3812.
+Memory consumption went from 166.9 MB to 166.9 MB.
+Total: 2.826200 ms (FindLiveObjects: 0.211000 ms CreateObjectMapping: 0.094400 ms MarkObjects: 2.470500 ms  DeleteObjects: 0.049000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
